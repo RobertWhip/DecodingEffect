@@ -12,11 +12,11 @@ public class Main {
 	private static final int HEIGHT = 200;
 	
 	private int fontSize = 24;	
-	private static JLabel label; // The label that will show the decoding effect
+	private static JLabel label; // the label that will show the decoding effect
 	private JPanel panel;
 	private JFrame frame;
 	
-	// crating GUI
+	// creating GUI
 	Main() {
 		
 		panel = new JPanel();
@@ -69,11 +69,11 @@ public class Main {
 			}
 		);
 		
-		decode.decoding("Some text."); // decoding one String value
+		decode.decoding("Some text."); // decoding a String value
 		
-		decode.setTextChangeSleepTime(1499); // Sleep time between two list element changing
+		decode.setTextChangeSleepTime(1499); // time to sleep between changes
 		
-		decode.setDecodingSleepTime(49); // Decoding speed
+		decode.setDecodingSleepTime(49); // decoding speed
 		
 		texts = main.read("input.txt"); // reading text from a file
 		
